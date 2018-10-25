@@ -32,7 +32,7 @@ lossa=-tf.reduce_sum(tf.multiply(advantage,l_probs))
 optimizea=tf.train.AdamOptimizer(0.01).minimize(lossa)
 
 
-
+#yo
 
 init=tf.global_variables_initializer()
 with tf.Session() as sess:
